@@ -44,9 +44,6 @@ def getRandomMovie(count):
             name_list.append(random.choice(rows_list)[1])
         return name_list
 
-print(getRandomMovie(3))
-
-
 def getMovieDetail(name_list):
     for movie_name in name_list:
         gbkmovie = movie_name.encode('gbk')
